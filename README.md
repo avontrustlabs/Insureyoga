@@ -21,7 +21,7 @@ Usage:
 
 Use the identity key for borderless applications that conform to this smart contract
 
- 
+http://www.uncitral.org/uncitral/en/uncitral_texts/arbitration/2010Arbitration_rules.html
 
 
 
