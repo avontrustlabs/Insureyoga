@@ -12,12 +12,12 @@ contract txcimportbond {
     }
     
     function finalize() {
-        if (msg.sender != buyer && msg.sender != arbiter) throw;
+        if (msg.sender != buyer && msg.sender != gov) throw;
         seller.send(this.balance);
     }
     
     function refund() {
-        if (msg.sender != seller && msg.sender != arbiter) throw;
+        if (msg.sender != seller && msg.sender != gov) throw;
         buyer.send(this.balance);        
     }
 }
