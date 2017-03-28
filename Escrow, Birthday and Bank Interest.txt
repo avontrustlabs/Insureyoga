@@ -5,7 +5,7 @@ contract txcimportbond {
     address buyer;
     address gov;
     
-    function Escrow() {
+    function txcimportbond() {
         buyer = msg.sender;
         seller = 0xf6deda468ba0aff0948bf96e17386df5ca642ae9;
         gov = 0x8f4b387c804d79dc4d56f87e221351d67a37d177;
