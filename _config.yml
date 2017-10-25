@@ -1,0 +1,8 @@
+title: Identityledger
+description: Multi blockchain digital identity ledger application
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
